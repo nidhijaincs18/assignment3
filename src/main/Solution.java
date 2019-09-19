@@ -13,7 +13,9 @@ public class Solution {
             Book[] books = new Book[n];
             s.nextLine().trim();
             for (int i = 0; i < n; i++) {
-
+                String book = s.nextLine().trim();
+                String author = s.nextLine().trim();
+                String isbn = s.nextLine().trim();
             }
         }
     }
