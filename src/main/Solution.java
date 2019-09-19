@@ -65,6 +65,10 @@ class Book {
 
     public String toString() {
         StringBuilder result = new StringBuilder();
+        result.append("-----------------------------\n");
+        result.append("Book Name:\t" + getBook() + "\nAuthor Name:\t" + getAuthor() + "\nISBN:\t" + getIsbn() + "\n");
+        result.append("-----------------------------");
+        return result.toString();
 
     }
 }
