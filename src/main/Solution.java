@@ -42,6 +42,10 @@ class Book {
         return book;
     }
 
+    public void setBook(String book) {
+        this.book = book;
+    }
+
 }
 
 }
