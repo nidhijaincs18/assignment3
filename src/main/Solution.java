@@ -9,8 +9,15 @@ public class Solution {
 
         if (n == 0) {
             System.out.println("N/A");
+        } else {
+            Book[] books = new Book[n];
+
         }
     }
 
+
+}
+
+class Book {
 
 }
