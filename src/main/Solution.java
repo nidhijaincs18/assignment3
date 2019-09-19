@@ -63,4 +63,8 @@ class Book {
         this.isbn = isbn;
     }
 
+    public String toString() {
+    }
+}
+
 }
