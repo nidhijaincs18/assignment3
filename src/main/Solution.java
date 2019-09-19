@@ -64,6 +64,8 @@ class Book {
     }
 
     public String toString() {
+        StringBuilder result = new StringBuilder();
+
     }
 }
 
