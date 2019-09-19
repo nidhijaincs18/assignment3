@@ -12,7 +12,9 @@ public class Solution {
         } else {
             Book[] books = new Book[n];
             s.nextLine().trim();
+            for (int i = 0; i < n; i++) {
 
+            }
         }
     }
 
