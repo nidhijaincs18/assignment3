@@ -18,7 +18,9 @@ public class Solution {
                 String isbn = s.nextLine().trim();
                 books[i] = new Book(book, author, isbn);
             }
-        }
+            for (int i = 0; i < books.length; i++) {
+                System.out.println(books[i]);
+            }
     }
 
 
