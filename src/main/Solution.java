@@ -11,6 +11,7 @@ public class Solution {
             System.out.println("N/A");
         } else {
             Book[] books = new Book[n];
+            s.nextLine().trim();
 
         }
     }
