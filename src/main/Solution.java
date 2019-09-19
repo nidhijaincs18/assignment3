@@ -27,6 +27,7 @@ public class Solution {
 
 }
 
+
 class Book {
     private String book;
     private String author;
@@ -46,6 +47,9 @@ class Book {
         this.book = book;
     }
 
-}
+    public String getAuthor() {
+        return author;
+    }
+
 
 }
