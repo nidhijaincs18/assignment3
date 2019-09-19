@@ -31,6 +31,12 @@ class Book {
     private String book;
     private String author;
     private String isbn;
+
+    public Book(String book, String author, String isbn) {
+        this.book = book;
+        this.author = author;
+        this.isbn = isbn;
+    }
 }
 
 }
