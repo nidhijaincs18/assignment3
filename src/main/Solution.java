@@ -16,6 +16,7 @@ public class Solution {
                 String book = s.nextLine().trim();
                 String author = s.nextLine().trim();
                 String isbn = s.nextLine().trim();
+                books[i] = new Book(book, author, isbn);
             }
         }
     }
