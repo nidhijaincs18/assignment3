@@ -55,4 +55,8 @@ class Book {
         this.author = author;
     }
 
+    public String getIsbn() {
+        return isbn;
+    }
+
 }
