@@ -22,10 +22,15 @@ public class Solution {
                 System.out.println(books[i]);
             }
     }
+        s.close();
 
 
 }
 
 class Book {
+    private String book;
+    private String author;
+    private String isbn;
+}
 
 }
